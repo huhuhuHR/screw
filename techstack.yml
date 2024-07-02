@@ -1,0 +1,398 @@
+repo_name: huhuhuHR/screw
+report_id: 4722340c89a30ba9bfe125a0ed3feead
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-02T01:29:43+00:00'
+requested_by: leshalv
+provider: github
+branch: master
+detected_tools_count: 32
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  version: '1.8'
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/huhuhuHR/screw/blob/master/pom.xml
+  detection_source: Repo Metadata
+  last_updated_by: SanLi
+  last_updated_on: 2020-06-21 23:37:16.000000000 Z
+- name: Apache FreeMarker
+  description: A free Java-based template engine
+  website_url: http://freemarker.incubator.apache.org/index.html
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/4456/ymCgaIO0_400x400.jpg
+  detection_source_url: https://github.com/huhuhuHR/screw
+  detection_source: Repo Metadata
+- name: H2 Database
+  description: A relational database management system written in Java
+  website_url: http://www.h2database.com/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/3105/h2-logo_square_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/screw/blob/master/screw-core/pom.xml
+  detection_source: screw-core/pom.xml
+  last_updated_by: SanLi
+  last_updated_on: 2020-06-21 23:37:16.000000000 Z
+- name: HSQLDB
+  description: Leading SQL relational database software written in Java
+  website_url: http://hsqldb.org
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/6958/yQ4763oZ_400x400.jpg
+  detection_source_url: https://github.com/huhuhuHR/screw/blob/master/screw-core/pom.xml
+  detection_source: screw-core/pom.xml
+  last_updated_by: SanLi
+  last_updated_on: 2020-06-21 23:37:16.000000000 Z
+- name: MSSQL
+  description: It is an enterprise-level database system that is very popular for
+    Windows web servers
+  website_url: https://www.microsoft.com/en-us/sql-server
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/2445/ZKsJsucq_400x400.jpg
+  detection_source_url: https://github.com/huhuhuHR/screw/blob/master/screw-core/pom.xml
+  detection_source: screw-core/pom.xml
+  last_updated_by: SanLi
+  last_updated_on: 2020-06-21 23:37:16.000000000 Z
+- name: MariaDB
+  description: An enhanced, drop-in replacement for MySQL
+  website_url: https://mariadb.com/
+  license: GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1615/mariadb-logo-400x400.png
+  detection_source_url: https://github.com/huhuhuHR/screw/blob/master/screw-core/pom.xml
+  detection_source: screw-core/pom.xml
+  last_updated_by: SanLi
+  last_updated_on: 2020-06-21 23:37:16.000000000 Z
+- name: Microsoft SQL Server
+  description: A relational database management system developed by Microsoft
+  website_url: http://microsoft.com/sqlserver
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1027/sql_server.png
+  detection_source_url: https://github.com/huhuhuHR/screw/blob/master/screw-core/pom.xml
+  detection_source: screw-core/pom.xml
+  last_updated_by: SanLi
+  last_updated_on: 2020-06-21 23:37:16.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/huhuhuHR/screw/blob/master/screw-core/pom.xml
+  detection_source: screw-core/pom.xml
+  last_updated_by: SanLi
+  last_updated_on: 2020-06-21 23:37:16.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/huhuhuHR/screw/blob/master/screw-core/pom.xml
+  detection_source: screw-core/pom.xml
+  last_updated_by: SanLi
+  last_updated_on: 2020-06-21 23:37:16.000000000 Z
+- name: SQLite
+  description: A software library that implements a self-contained, serverless, zero-configuration,
+    transactional SQL database engine
+  website_url: http://www.sqlite.org/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1071/sqlite.jpg
+  detection_source_url: https://github.com/huhuhuHR/screw/blob/master/screw-core/pom.xml
+  detection_source: screw-core/pom.xml
+  last_updated_by: SanLi
+  last_updated_on: 2020-06-21 23:37:16.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/huhuhuHR/screw
+  detection_source: Repo Metadata
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/screw/blob/master/screw-core/pom.xml
+  detection_source: screw-core/pom.xml
+  last_updated_by: SanLi
+  last_updated_on: 2020-06-21 23:37:16.000000000 Z
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/screw/blob/master/screw-core/pom.xml
+  detection_source: screw-core/pom.xml
+  last_updated_by: SanLi
+  last_updated_on: 2020-06-21 23:37:16.000000000 Z
+- name: ch.qos.logback:logback-classic
+  description: Logback-classic module
+  license: EPL-1.0,LGPL-2.1+
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/screw/blob/master/screw-core/pom.xml
+  detection_source: screw-core/pom.xml
+  last_updated_by: SanLi
+  last_updated_on: 2020-06-21 23:37:16.000000000 Z
+- name: com.alibaba:fastjson
+  description: Fastjson is a JSON processor
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/screw/blob/master/screw-core/pom.xml
+  detection_source: screw-core/pom.xml
+  last_updated_by: xielongwang
+  last_updated_on: 2020-08-27 13:45:37.000000000 Z
+- name: com.h2database:h2
+  description: H2 Database Engine
+  license: MIT-feh
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/screw/blob/master/screw-core/pom.xml
+  detection_source: screw-core/pom.xml
+  last_updated_by: xielongwang
+  last_updated_on: 2020-08-27 13:45:37.000000000 Z
+- name: com.microsoft.sqlserver:mssql-jdbc
+  description: Microsoft JDBC 4.1 Driver for SQL Server
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/screw/blob/master/screw-core/pom.xml
+  detection_source: screw-core/pom.xml
+  last_updated_by: xielongwang
+  last_updated_on: 2020-08-27 13:45:37.000000000 Z
+- name: com.zaxxer:HikariCP
+  description: Ultimate JDBC Connection Pool
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/screw/blob/master/screw-core/pom.xml
+  detection_source: screw-core/pom.xml
+  last_updated_by: xielongwang
+  last_updated_on: 2020-08-27 13:45:37.000000000 Z
+- name: commons-logging:commons-logging
+  description: Apache Commons Logging is a thin adapter allowing configurable bridging
+    to other
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/screw/blob/master/screw-core/pom.xml
+  detection_source: screw-core/pom.xml
+  last_updated_by: SanLi
+  last_updated_on: 2021-01-05 06:11:24.000000000 Z
+- name: mysql:mysql-connector-java
+  description: MySQL JDBC Type 4 driver
+  license: GPL-3.0-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/screw/blob/master/screw-core/pom.xml
+  detection_source: screw-core/pom.xml
+  last_updated_by: xielongwang
+  last_updated_on: 2020-08-27 13:45:37.000000000 Z
+- name: org.apache.commons:commons-lang3
+  description: Apache Commons Lang
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/screw/blob/master/screw-core/pom.xml
+  detection_source: screw-core/pom.xml
+  last_updated_by: SanLi
+  last_updated_on: 2021-01-05 06:11:24.000000000 Z
+- name: org.apache.maven.plugin-tools:maven-plugin-annotations
+  description: Java 5 annotations to use in Mojos
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/screw/blob/master/screw-maven-plugin/pom.xml
+  detection_source: screw-maven-plugin/pom.xml
+  last_updated_by: SanLi
+  last_updated_on: 2020-06-21 23:37:16.000000000 Z
+- name: org.apache.maven:maven-plugin-api
+  description: The API for plugins - Mojos - development
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/screw/blob/master/screw-maven-plugin/pom.xml
+  detection_source: screw-maven-plugin/pom.xml
+  last_updated_by: SanLi
+  last_updated_on: 2020-06-21 23:37:16.000000000 Z
+- name: org.apache.velocity:velocity
+  description: Apache Velocity is a general purpose template engine
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/screw/blob/master/screw-core/pom.xml
+  detection_source: screw-core/pom.xml
+  last_updated_by: SanLi
+  last_updated_on: 2021-01-05 06:11:24.000000000 Z
+- name: org.freemarker:freemarker
+  description: FreeMarker is a "template engine"; a generic tool to generate text
+    output based on templates
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/screw/blob/master/screw-core/pom.xml
+  detection_source: screw-core/pom.xml
+  last_updated_by: SanLi
+  last_updated_on: 2021-01-05 06:11:24.000000000 Z
+- name: org.hsqldb:hsqldb
+  description: HSQLDB - Lightweight 100% Java SQL Database Engine
+  license: Zed,TMate
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/screw/blob/master/screw-core/pom.xml
+  detection_source: screw-core/pom.xml
+  last_updated_by: SanLi
+  last_updated_on: 2021-01-05 06:11:24.000000000 Z
+- name: org.junit.jupiter:junit-jupiter
+  description: Module "junit-jupiter" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/screw/blob/master/screw-core/pom.xml
+  detection_source: screw-core/pom.xml
+  last_updated_by: SanLi
+  last_updated_on: 2021-01-05 06:11:24.000000000 Z
+- name: org.mariadb.jdbc:mariadb-java-client
+  description: JDBC driver for MariaDB and MySQL
+  license: LGPL-2.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/screw/blob/master/screw-core/pom.xml
+  detection_source: screw-core/pom.xml
+  last_updated_by: SanLi
+  last_updated_on: 2021-01-05 06:11:24.000000000 Z
+- name: org.postgresql:postgresql
+  description: The PostgreSQL Driver JDBC4
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/screw/blob/master/screw-core/pom.xml
+  detection_source: screw-core/pom.xml
+  last_updated_by: SanLi
+  last_updated_on: 2021-01-05 06:11:24.000000000 Z
+- name: org.projectlombok:lombok
+  description: 'Spice up your java: Automatic Resource Management'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/screw/blob/master/screw-core/pom.xml
+  detection_source: screw-core/pom.xml
+  last_updated_by: SanLi
+  last_updated_on: 2021-01-05 06:11:24.000000000 Z
+- name: org.slf4j:slf4j-api
+  description: The slf4j API
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/screw/blob/master/screw-core/pom.xml
+  detection_source: screw-core/pom.xml
+  last_updated_by: SanLi
+  last_updated_on: 2021-01-05 06:11:24.000000000 Z
+- name: org.xerial:sqlite-jdbc
+  description: SQLite JDBC library
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/screw/blob/master/screw-core/pom.xml
+  detection_source: screw-core/pom.xml
+  last_updated_by: SanLi
+  last_updated_on: 2021-01-05 06:11:24.000000000 Z
